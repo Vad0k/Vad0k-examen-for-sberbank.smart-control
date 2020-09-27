@@ -1,0 +1,25 @@
+@import "../../../../themes/theme";
+
+.BtnCircle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: $heightBtn;
+  height: $heightBtn;
+  border-radius: $borderRadius;
+  color: $textColorDefault;
+  background-color: $backgroundBtnDefault;
+  font-size: $textSizeBtn;
+  box-sizing: border-box;
+  transition: all .3s ease;
+  will-change: background, color;
+  text-decoration: none;
+  &.active {
+    color: $textColorActive;
+    background-color: $backgroundBtnActive;
+  }
+  &:hover {
+    color: $textColorHover;
+    background-color: $backgroundBtnHover;
+  }
+}

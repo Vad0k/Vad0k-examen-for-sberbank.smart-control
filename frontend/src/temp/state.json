@@ -1,0 +1,29 @@
+{
+  "view": {
+    "idActiveSmartHouse": "",
+    "houses": [
+      {
+        "id": "",
+        "title": "",
+        "idActiveRoom": "",
+        "rooms": [
+          {
+            "controlPanel": {
+              "defaultButtons": {
+                "power": true,
+                "volume": 0,
+                "light": true,
+                "temperature": 0,
+                "security": true
+              },
+              "customButtons": {
+
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+
+}
